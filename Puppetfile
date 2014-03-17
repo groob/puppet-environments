@@ -7,6 +7,7 @@ mod 'puppetlabs/inifile', '1.0.3'
 mod 'puppetlabs/apache', '1.0.1'
 mod 'puppetlabs/postgresql', '3.3.3'
 mod 'puppetlabs/puppetdb', '3.0.1'
+mod 'puppetlabs/concat', '1.0.2'
 
 mod "role",
     :git => "git://github.com/groob/puppet-module-role.git"
