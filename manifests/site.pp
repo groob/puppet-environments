@@ -42,5 +42,6 @@ node default {
   #   class { 'my_class': }
 }
 node 'puppet.whitbylab.net' {
+  notice('puppetmaster')
   include role::puppetmaster
 }
