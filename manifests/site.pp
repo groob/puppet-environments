@@ -41,3 +41,6 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+node 'puppet.whitbylab.net' {
+  include role::puppetmaster
+}
