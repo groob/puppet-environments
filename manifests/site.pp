@@ -37,6 +37,7 @@ File { backup => 'main' }
 # specified in the console for that node.
 
 node default {
+  notice('default')
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
