@@ -10,7 +10,10 @@ mod 'puppetlabs/puppetdb', '3.0.1'
 mod 'puppetlabs/concat', '1.0.2'
 mod 'puppetlabs/passenger', '0.2.0'
 mod 'puppetlabs/ruby', '0.1.0'
+mod 'puppetlabs/java', '1.1.0'
 
+mod 'file_concat',
+    :git => 'git://github.com/electrical/puppet-lib-file_concat.git'
 mod "role",
     :git => "git://github.com/groob/puppet-module-role.git"
 mod "profile",
