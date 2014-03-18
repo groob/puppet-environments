@@ -11,6 +11,7 @@ mod 'puppetlabs/concat', '1.0.2'
 mod 'puppetlabs/passenger', '0.2.0'
 mod 'puppetlabs/ruby', '0.1.0'
 mod 'puppetlabs/java', '1.1.0'
+mod 'elasticsearch/logstash', '0.4.3'
 
 mod 'file_concat',
     :git => 'git://github.com/electrical/puppet-lib-file_concat.git'
