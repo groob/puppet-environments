@@ -42,7 +42,7 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
-node 'puppet.whitbylab.net' {
+node 'puppet.whitbylab.org' {
   notice('puppetmaster')
   include role::puppetmaster
 }
