@@ -46,3 +46,6 @@ node 'puppet.whitbylab.org' {
   notice('puppetmaster')
   include role::puppetmaster
 }
+node 'logger.whitbylab.org' {
+  include role::logger
+}
